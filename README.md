@@ -1,3 +1,34 @@
+README from tykim
+```
+1. Docker build
+docker build -t dasiamrpn .
+
+2. Docker run
+docker run -it \
+-e DISPLAY=FIXME \
+-v /tmp/.X11-unix:/tmp/.X11-unix \
+-v /home/tykim/Documents/Github-taeraemon/DaSiamRPN:/workspace/DaSiamRPN \
+--net host \
+--gpus all \
+dasiamrpn
+
+3. Download Pretrained model for demo
+link that provided from repo's own
+
+4. Run demo
+python demo.py
+
+5. Training self
+TODO
+
+
+
+```
+
+
+
+
+
 :trophy:News: **We won the VOT-18 real-time challenge**
 
 :trophy:News: **We won the second place in the VOT-18 long-term challenge**
